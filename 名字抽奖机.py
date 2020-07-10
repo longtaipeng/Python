@@ -60,7 +60,7 @@ class Game:
 
 print("你需要抽取几个同学？")
 num1 = int(input())
-print("有哪些同学不参加这次抽奖？(有多个同学的时候中间用空格分开!!!)")
+print("有哪些同学不参加这次抽奖？(有多个同学的时候中间用空格分开!!!) 没有就直接回车！！！")
 name = input()
 game = Game(num1, name.split(' '))
 game.main()
